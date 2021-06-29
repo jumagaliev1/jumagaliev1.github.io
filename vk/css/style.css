@@ -1,0 +1,40 @@
+.col-md-3{
+	padding: 10px;
+}
+.col-md-offset-4{
+	padding: 10px;
+}
+.header{
+	position: sticky;
+    top: 0;
+    background: white;
+    display: block;	
+    
+}
+main{
+	background: #e5ebf1;
+}
+form{
+	width: 350px;
+	padding: 30px;
+	background: white;
+}
+.col-md-8{
+	padding: 10px;
+	background:white;
+
+}
+.row{
+padding: 10px;
+}
+#profile{
+	width: 30%;
+}
+#registr{
+	width: 30%;
+}
+#continue{
+	background: #4bb34b;
+	padding: 8px;
+	border-top: 10px;
+}
