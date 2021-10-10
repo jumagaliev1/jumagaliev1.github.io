@@ -1,0 +1,61 @@
+.col-md-2.logo{
+	
+	padding-left: 60px;	
+}
+.burger{
+	padding-top: 15px;
+}
+.middle-block{
+	padding-top: 5rem;
+}
+.header{
+	background-color: 	#1C1C1C;
+	color: white;
+}
+.img-wrap{
+	position: relative;
+}
+.img-wrap h4 {
+  position: absolute;
+  left: 320px;
+  bottom: 0;
+  top: 40px;
+  width: 50%;
+  padding-bottom: 8rem;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+.img-wrap button{
+  position: absolute;
+  left: 550px;
+  bottom: 25px;
+  width: 10%;
+  align-content: center;
+}
+.font-weight-bold.mb-2{
+  padding-top: 2rem;
+}
+.row.pb-5.mb-4{
+  padding-top: 2rem;
+}
+
+.img-wrap img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media (max-width: 749px){
+  .img-wrap h4, .img-wrap button {
+    left: 0;
+  }
+  .middle-block{
+    margin-top: 18rem;
+    padding: 0;
+  }
+}
