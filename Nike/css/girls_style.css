@@ -1,0 +1,129 @@
+.col-md-2.logo{
+	
+	padding-left: 60px;	
+}
+.burger{
+	padding-top: 15px;
+}
+a {
+  color: white !important;
+  text-decoration: none
+}
+.dropdown-toggle{
+    background-color:#1C1C1C;
+    color: black;
+}
+.dropdown-menu{
+  background-color: #1c1c1c;
+}
+.header{
+	background-color: 	#1C1C1C;
+	color: white;
+}
+.middle-block{
+	margin-top: 1rem;
+	
+    align-content: center;
+}
+.carousel-item{
+	height: 400px;
+}
+.img-appstore{
+	margin-top: 5rem;
+	background-size: cover;
+	height: 300px;
+	width: 1300px;
+	background-position: 50% 40%;
+	background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.3/w_1519,c_limit/5234de05-4d47-48b0-89eb-6c637e279bab/%D0%B4%D0%BB%D1%8F-%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD.jpg);
+}
+.img-appstore h1{
+	padding-top: 5rem;
+	text-align: center;
+	color: white;
+	font-size: 48px;
+}
+.img-appstore p{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+#carouselExampleFade{
+	margin-top: 1rem;
+}
+.text-area h4{
+	margin-top: 1rem;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1;
+	font-size: 65px;
+}
+.text-area p{
+	font-size: 20px;
+	text-align: center;
+}
+.gallery img{
+	width: 430px;
+	height: 430px;
+}
+.nav{
+  float: left;
+  padding-bottom: 10rem;
+}
+label{
+  margin: 8px 0 0 20px;
+  font-size: 30px;
+  display: none;
+}
+#toggle{
+  display: none;
+}
+@media(max-width: 700px){
+	.img-appstore{
+		display: none;
+		width: 400px;
+		height: 100px;
+		margin-top: 5rem;
+	}
+	.header{
+		margin-right: 5rem;
+	    text-align: center;
+	    background-color:   white;
+	    color: black;
+	    font-size: 20px;
+	}
+	.middle-block{
+		display: none;
+	}
+	a{
+     	color: black !important;
+      	text-decoration: none
+  	}
+  	label{
+    	display: block;
+    	cursor: pointer;
+  	}
+	#toggle:checked + .header{
+    	display: none;  
+  	}
+  
+  	.pre-logo-svg{
+    	fill: black;
+  	}
+  	.fixed-top{
+    	position: inherit;;
+  	}
+  	.text-area h4{
+  		font-size: 37px;
+  	}
+  	.row .text-area .col-md-2{
+  		display: none;
+  	}
+  	.dropdown-toggle{
+    background-color: white;
+  }
+  .dropdown-menu{
+    background-color: gray;
+  }
+}

@@ -1,6 +1,20 @@
+.body{
+  background-color: #f5f5f5;
+}
 .col-md-2.logo{
 	
 	padding-left: 60px;	
+}
+.dropdown-toggle{
+    background-color:#1C1C1C;
+    color: black;
+}
+.dropdown-menu{
+  background-color: #1c1c1c;
+}
+a {
+  color: white !important;
+  text-decoration: none
 }
 .burger{
 	padding-top: 15px;
@@ -14,9 +28,20 @@
 }
 .img-wrap{
 	position: relative;
+  background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.3/w_1407,c_limit/bcbf2258-4852-491c-a4a0-b0d70858e7a6/nike-just-do-it.jpg);
+  height: 200px;
 }
-.img-wrap h4 {
-  position: absolute;
+.img-wrap h6 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 53px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 2rem;
+  /*position: absolute;
   left: 320px;
   bottom: 0;
   top: 40px;
@@ -29,7 +54,7 @@
   line-height: 1;
   text-transform: uppercase;
   text-align: center;
-  font-weight: bold;
+  font-weight: bold;*/
 }
 .img-wrap button{
   position: absolute;
@@ -49,13 +74,75 @@
   max-width: 100%;
   max-height: 100%;
 }
+.nav{
+  float: left;
+  padding-bottom: 5rem;
+}
+label{
+
+  margin: 8px 0 0 20px;
+  font-size: 30px;
+  display: none;
+}
+#toggle{
+  display: none;
+}
+.btn:hover{
+  border: none;
+}
+ul.dropdown-menu li a{
+  color: black;
+}
 
 @media (max-width: 749px){
   .img-wrap h4, .img-wrap button {
     left: 0;
   }
+  .fixed-top{
+    position: inherit;;
+  }
+  a{
+     color: black !important;
+      text-decoration: none
+  }
+  .header{
+    margin-right: 5rem;
+    text-align: center;
+    background-color:   white;
+    color: black;
+    font-size: 20px;
+
+  }
+  .form-inline{
+    margin-left: 4rem;
+  }
   .middle-block{
-    margin-top: 18rem;
+    display: inline-block;
+    margin-top: 1rem;
     padding: 0;
+  }
+
+  label{
+    display: block;
+    cursor: pointer;
+  }
+
+  #toggle:checked + .header{
+    display: none;  
+  }
+  .body{
+    background-color: gray;
+  }
+  .pre-logo-svg{
+    fill: black;
+  }
+  .img-wrap h6{
+    font-size: 40px;
+  }
+  .dropdown-toggle{
+    background-color: white;
+  }
+  .dropdown-menu{
+    background-color: gray;
   }
 }

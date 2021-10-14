@@ -15,22 +15,41 @@
 </head>
 <body>
 	<div class="container-xxl">
-		<div class="header gy-100 fixed-top">
+			<div class="nav">
+				<label for="toggle">&#9777</label>
+			</div>
+			<input type="checkbox" name="" id="toggle">
+		<div class="header fixed-top">
+			
 			<div class="row">
 				<div class="col-md-2 logo">
-					<svg class="pre-logo-svg" height="60px" width="60px" fill="#FFFFFF" viewBox="0 0 69 32"><path d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z"></path></svg>
+					<a href="index.html">
+						<svg class="pre-logo-svg" height="60px" width="60px" fill="#FFFFFF" viewBox="0 0 69 32"><path d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z"></path></svg>
+					</a>
 				</div>
 				<div class="col-md-2 burger">
-					<h6>Новинки</h6>
+					<div class="dropdown">
+					  <a class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" style="" aria-expanded="false">
+					    Новинки
+					  </a>
+					  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="color: black;">
+						<li><a class="dropdown-item" href="#">Nike Sportswear</a></li>
+					    <li><a class="dropdown-item" href="#">NikeLab</a></li>
+					    <li><a class="dropdown-item" href="#">Jordan</a></li>
+					     <li><a class="dropdown-item" href="#">Nike SB</a></li>
+					    <li><a class="dropdown-item" href="#">ACG</a></li>
+					     <li><a class="dropdown-item" href="#">Nike Pro</a></li>
+					  </ul>
+					</div>
 				</div>
 				<div class="col-md-2 burger">
-					<h6>Мужчины</h6>
+					<a href="mens.html">Мужчины</a>
 				</div>
 				<div class="col-md-2 burger">
-					<h6>Женщины</h6>
+					<a href="girls.html">Женщины</a>
 				</div>
 				<div class="col-md-2 burger">
-						<h6>Дети</h6>
+						<a href="babys.html">Дети</a>
 				</div>
 				<div class="col-md-2 ">
 					<nav class="navbar navbar-light bg-red">
@@ -41,15 +60,15 @@
 				</div>
 			</div>
 		</div>
+		
 		<div class="middle-block">
 			<div class="row">
 				<div class="img-wrap">
 					
 				
 				<div class="col-md-12 ">
-					<img src="https://static.nike.com/a/images/f_auto/dpr_1.3/w_1407,c_limit/bcbf2258-4852-491c-a4a0-b0d70858e7a6/nike-just-do-it.jpg" class="img-fluid " alt="...">
-					<h4>Дополнительная скидка 10% на товары из распродажи</h4>
-					<button type="button" class="btn btn-light">Купить</button>
+					
+					<h6>Дополнительная скидка 10% на товары из распродажи</h6>
 				</div>
 				</div>
 			</div>
@@ -129,24 +148,43 @@
 		  <div class="third-block">
 		  	<div class="row">
 		  		<div class="col-md-4">
-		  			<a class="ripple" href="#!">
+		  			<a class="ripple" href="mens.html">
+		  				<h1 style="text-align: center; color: black;">Мужчины</h1>
 		  				<img src="https://static.nike.com/a/images/f_auto/dpr_1.3/w_465,c_limit/0bafb728-2ae2-416f-bb18-5935801c8071/nike-just-do-it.png" class="img-thumbnail hover-shadow" alt="" style="width: 455px; height: 581px;">
+
 		  			</a>
 		  		
 
 		  	</div>
 		  	<div class="col-md-4">
-		  		<a class="ripple" href="#!">
+		  		<a class="ripple" href="girls.html">
+		  			<h1 style="text-align: center; color: black;">Женщины</h1>
 		  			<img src="https://static.nike.com/a/images/f_auto/dpr_1.3/w_465,c_limit/2c8754ce-6287-4e77-a198-1ad483fba257/nike-just-do-it.png" class="img-thumbnail hover-shadow" alt="" style="width: 455px; height: 581px;">
+		  			
 		  		</a>
 		  	</div>
 		  	<div class="col-md-4">
-		  		<a class="ripple" href="#!">
+		  		<a class="ripple" href="babys.html">
+		  			<h1 style="text-align: center; color: black;">Дети</h1>
 		  			<img src="https://static.nike.com/a/images/f_auto/dpr_1.3/w_465,c_limit/414db494-7ebc-4d53-bbff-58d50b380a24/nike-just-do-it.png" class="img-thumbnail hover-shadow" alt="" style="width: 455px; height: 581px;">
 		  		</a>
 		  	</div>
 		  	</div>
 		  </div>
+		  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+		    <p class="col-md-4 mb-0 text-muted">© 2021 Nike, Inc</p>
+
+		    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+		      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+		    </a>
+
+		    <ul class="nav col-md-4 justify-content-end">
+		      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Главный</a></li>
+		      <li class="nav-item"><a href="mens.html" class="nav-link px-2 text-muted">Мужчины</a></li>
+		      <li class="nav-item"><a href="girls.html" class="nav-link px-2 text-muted">Женщины</a></li>
+		      <li class="nav-item"><a href="babys.html" class="nav-link px-2 text-muted">Дети</a></li>
+		    </ul>
+		</footer>
 	</div>
 </body>
 </html>

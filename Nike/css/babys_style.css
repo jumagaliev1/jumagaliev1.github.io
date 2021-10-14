@@ -1,0 +1,117 @@
+.col-md-2.logo{
+	
+	padding-left: 60px;	
+}
+.burger{
+	padding-top: 15px;
+}
+a {
+  color: white !important;
+  text-decoration: none
+}
+.dropdown-toggle{
+    background-color:#1C1C1C;
+    color: black;
+}
+.dropdown-menu{
+  background-color: #1c1c1c;
+}
+.header{
+	background-color: 	#1C1C1C;
+	color: white;
+}
+.jumbotron {
+	padding-top: 10rem;
+	background-image: url(https://static.nike.com/a/images/f_auto/w_1920,c_limit/26da40ca-8587-43e2-9b9c-822a7d5b4173/image.jpg);
+	height: 600px;
+	background-size: cover;
+	color: white;
+
+}
+.jumbotrom.container h1{
+	
+}
+.text-area h1{
+	margin-top: 1rem;
+	font-weight: bold;
+	color: black;
+}
+.text-area p{
+	font-size: 20px;
+	margin-bottom: 1rem;
+}
+.gallery img{
+	margin-top: 1rem;
+	width: 430px;
+	height: 400px;
+}
+
+.nav{
+  float: left;
+  padding-bottom: 5rem;
+}
+label{
+
+  margin: 8px 0 0 20px;
+  font-size: 30px;
+  display: none;
+}
+#toggle{
+  display: none;
+}
+@media(max-width: 700px){
+	.img-appstore{
+
+		width: 400px;
+		height: 100px;
+		margin-top: 20rem;
+	}
+	.middle-block{
+		display: none;
+	}
+	.header{
+	    margin-right: 5rem;
+	    text-align: center;
+	    background-color:   white;
+	    color: black;
+	    font-size: 20px;
+
+ 	}
+ 	.jumbotron{
+ 		background-position-x : -300px;
+ 	}
+	a{
+     	color: black !important;
+      	text-decoration: none
+  	}
+  	.form-inline{
+    	margin-left: 4rem;
+  	}
+  	.fixed-top{
+    	position: inherit;;
+  	}
+	label{
+    	display: block;
+    	cursor: pointer;
+  	}
+	#toggle:checked + .header{
+    	display: none;  
+  	}
+  
+  	.pre-logo-svg{
+    	fill: black;
+  	}
+  	.text-area{
+  	margin-top: 6rem;
+  }
+  	
+  	footer{
+  		width: 60%;
+  	}
+  	.dropdown-toggle{
+    	background-color: white;
+  	}
+  	.dropdown-menu{
+    	background-color: gray;
+  	}
+}
